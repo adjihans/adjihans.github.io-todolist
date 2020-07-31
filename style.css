@@ -48,16 +48,24 @@ li{
     margin: 15px 0px;
 }
 
+li:hover {
+	background-color: lawngreen;
+}
+
+input:hover {
+    background: #ffb005;
+}
 
 li button{
     display: inline-block;
-    position: fixed;
+    float: right;
     border: none;
     border-radius: 10px;
     background: none;
     font-size: 20px;
     color: darkslategray;
     font-weight: bold;
+    margin: auto;
 }
 
 p{

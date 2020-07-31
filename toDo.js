@@ -4,7 +4,6 @@ let inputDate = document.getElementById("deadline")
 let ul = document.querySelector("ul");
 let list = document.getElementsByTagName("li");
 
-
 let today = new Date();
 let dd = addZero(today.getDate());
 let todayDate = Number(dd);
@@ -143,18 +142,18 @@ function createListElement() {
         // delete buttonnya desainnya berantakan kalau kepanjangan title to do. NEED FIX!!!
     
         // let deleteButton = document.createElement("button");
+        
         // deleteButton.appendChild(document.createTextNode("X"));
         // li.appendChild(deleteButton);
         // deleteButton.addEventListener("click", deleteList);
     
     
         // function deleteList() {
-        //     li.classList.add("delete")
+        //     li.classList.add("delete");
         // }
     }
 
 }
-
 
 function addListAfterClick() {
     if (data.value.length > 0) {
