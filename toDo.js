@@ -90,7 +90,7 @@ function dateIdentifier(monthTarget, monthNow, yearTarget, yearNow) {
             output += totalDays
         }
     
-        if (output === 0) {
+        if (output < 0) {
             alert('Please do not input past date');
         } else {
             return output;
